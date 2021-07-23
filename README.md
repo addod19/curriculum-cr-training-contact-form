@@ -24,3 +24,7 @@ Application is based on this [Figma design](https://www.figma.com/file/t3EJUCAEV
 - [ ] [LinkedIn]()
 - [ ] [Stackoverflow]()
 - [ ] [Twitter]()
+
+
+## Deployment
+- [ ] [Live version demo]()
