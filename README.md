@@ -18,6 +18,7 @@ Application is based on this [Figma design](https://www.figma.com/file/t3EJUCAEV
 
 ## Linter checks command
 - [ ] `npx stylelint "**/*.scss"`
+- [ ] `npx hint .`
 
 
 ## Author
