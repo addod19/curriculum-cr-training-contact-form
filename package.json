@@ -1,0 +1,25 @@
+{
+  "name": "training",
+  "version": "1.0.0",
+  "description": "Training for the version 2.0 code review",
+  "main": "index.js",
+  "scripts": {
+    "stylelint": "stylelint ’[-**/*.{css,scss}]’"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/microverseinc/curriculum-cr-training-contact-form.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/microverseinc/curriculum-cr-training-contact-form/issues"
+  },
+  "homepage": "https://github.com/microverseinc/curriculum-cr-training-contact-form#readme",
+  "devDependencies": {
+    "stylelint": "^13.13.1",
+    "stylelint-config-standard": "^22.0.0",
+    "stylelint-csstree-validator": "^1.9.0",
+    "stylelint-scss": "^3.20.1"
+  }
+}
