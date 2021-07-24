@@ -22,9 +22,9 @@ Application is based on this [Figma design](https://www.figma.com/file/t3EJUCAEV
 
 
 ## Author
-- [ ] [LinkedIn]()
-- [ ] [Stackoverflow]()
-- [ ] [Twitter]()
+- [ ] [LinkedIn](https://www.linkedin.com/in/daniel-larbi-addo/)
+- [ ] [Stackoverflow](https://stackoverflow.com/users/12172996/daniel-larbi-addo)
+- [ ] [Twitter](https://twitter.com/DanielLarbiAdd1)
 
 
 ## Deployment
