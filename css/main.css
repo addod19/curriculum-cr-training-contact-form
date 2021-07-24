@@ -331,21 +331,36 @@ li {
 .contact__form__wrapper {
   width: 100%;
   height: 80vh;
-  background: #e5e5e5;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
 }
 
 .contact__form--details {
-  border: 1px solid red;
   width: 100%;
 }
 
+.contact__form--text {
+  height: 256px;
+  width: 455px;
+  top: 0;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 52px;
+  text-align: left;
+}
+
 .w-2-lg {
-  border: 1px solid black;
   margin: auto;
   padding: 2%;
   height: 60vh;
+}
+
+.display__column__1__1 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
 }
 
 .first__name__input,
@@ -354,4 +369,89 @@ li {
   width: 60%;
   height: 5vh;
   margin: 0.4em;
+}
+
+.first__name__input,
+.last__name__input {
+  height: 2em;
+  width: 18em;
+}
+
+.last__name__input {
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+}
+
+.email__input {
+  height: 2em;
+  width: 35em;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 3em;
+}
+
+.message__input {
+  height: 10em;
+  width: 40em;
+  background: #fbf8f7;
+  color: #3c3a39;
+}
+
+.get__intouch__btn__wrap {
+  height: 3em;
+  width: 8em;
+  padding: 0.7em;
+  background: #f55800;
+}
+
+.get__intouch__btn {
+  height: 1.4em;
+  width: 9em;
+  left: 0.7em;
+  top: 12px;
+  background: #f55800;
+  border: none;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: #fff;
+}
+
+.get__intouch__btn:hover {
+  cursor: pointer;
+}
+
+.social__handles__wrap {
+  border-top: 2px solid #e5e5e5;
+}
+
+.social__handles {
+  display: flex;
+  flex-direction: row;
+  height: 3em;
+  justify-content: center;
+  align-items: center;
+}
+
+.github__wrap,
+.linkedin__wrap,
+.angellist__wrap,
+.twitter__wrap,
+.medium__wrap {
+  margin: 1em;
+}
+
+.fa-angellist,
+.fa-github,
+.fa-linkedin,
+.fa-twitter,
+.fa-medium {
+  color: #505f79;
 }
