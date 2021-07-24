@@ -455,3 +455,7 @@ li {
 .fa-medium {
   color: #505f79;
 }
+
+.header__fit__linter {
+  display: none;
+}
