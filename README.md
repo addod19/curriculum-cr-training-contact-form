@@ -28,4 +28,4 @@ Application is based on this [Figma design](https://www.figma.com/file/t3EJUCAEV
 
 
 ## Deployment
-- [ ] [Live version demo]()
+- [ ] [Live version demo](https://raw.githack.com/addod19/curriculum-cr-training-contact-form/review/index.html)
