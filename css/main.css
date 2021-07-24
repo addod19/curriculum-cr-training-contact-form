@@ -328,124 +328,99 @@ li {
 
 /* Contact Form Styling begins here */
 
-.contact__form__wrapper {
-  width: 100%;
-  height: 80vh;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
+/* Mobile First Approach */
+
+.header__fit__linter {
+  display: none;
 }
 
-.contact__form--details {
+.contact__form__wrapper {
   width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.w-1-sm {
+  width: 100%;
+  height: 50vh;
 }
 
 .contact__form--text {
-  height: 256px;
-  width: 455px;
-  top: 0;
-  font-size: 40px;
+  height: auto;
+  font-size: 2em;
   font-style: normal;
   font-weight: 700;
-  line-height: 52px;
-  text-align: left;
+  line-height: 1em;
+  text-align: center;
+  margin-top: 2em;
+  margin-bottom: 2em;
 }
 
-.w-2-lg {
+.contact__form--details {
+  width: 90%;
   margin: auto;
-  padding: 2%;
-  height: 60vh;
 }
 
-.display__column__1__1 {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+.display__column__1__1,
+.email__group,
+.message_group,
+.first__name__input,
+.last__name__input,
+.message__input,
+.email__input {
   width: 100%;
+  border: none;
+}
+
+.message__input {
+  height: 8em;
 }
 
 .first__name__input,
 .last__name__input,
 .email__input {
-  width: 60%;
-  height: 5vh;
-  margin: 0.4em;
+  height: 4em;
+  border-bottom: 1px solid #e5e5e5;
 }
 
-.first__name__input,
-.last__name__input {
-  height: 2em;
-  width: 18em;
-}
-
-.last__name__input {
-  font-size: 15px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 24px;
-  text-align: left;
-}
-
-.email__input {
-  height: 2em;
-  width: 35em;
-  font-size: 15px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 3em;
-}
-
-.message__input {
-  height: 10em;
-  width: 40em;
-  background: #fbf8f7;
-  color: #3c3a39;
-}
-
-.get__intouch__btn__wrap {
-  height: 3em;
-  width: 8em;
-  padding: 0.7em;
-  background: #f55800;
-}
-
-.get__intouch__btn {
-  height: 1.4em;
-  width: 9em;
-  left: 0.7em;
-  top: 12px;
-  background: #f55800;
+.get__intouch__btn,
+.get__intouch__wrap {
+  background: #ff6b00;
+  height: 48px;
+  width: 131px;
   border: none;
-  font-size: 12px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 24px;
-  letter-spacing: 0.03em;
-  text-align: center;
-  color: #fff;
 }
 
-.get__intouch__btn:hover {
+.get__intouch__btn:hover,
+.get__intouch__wrap:hover {
   cursor: pointer;
 }
 
-.social__handles__wrap {
-  border-top: 2px solid #e5e5e5;
-}
-
-.social__handles {
+.get__intouch__btn__wrap {
   display: flex;
-  flex-direction: row;
-  height: 3em;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-.github__wrap,
-.linkedin__wrap,
-.angellist__wrap,
-.twitter__wrap,
-.medium__wrap {
-  margin: 1em;
+.social__handles__wrap {
+  width: 100%;
+  height: 5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1.7em;
+  margin-bottom: 1.3em;
+  border-top: 1px solid #e5e5e5;
+}
+
+.social__handles {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
 }
 
 .fa-angellist,
@@ -456,6 +431,158 @@ li {
   color: #505f79;
 }
 
-.header__fit__linter {
-  display: none;
+.fa-angellist:hover,
+.fa-github:hover,
+.fa-linkedin:hover,
+.fa-twitter:hover,
+.fa-medium:hover {
+  opacity: 0.7;
+}
+
+.get__intouch__btn:hover {
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+.github__wrap,
+.linkedin__wrap,
+.angellist__wrap,
+.twitter__wrap,
+.medium__wrap {
+  margin-top: 1em;
+}
+
+@media only screen and (min-width: 992px) and (min-width: 1280px) {
+  .contact__form__wrapper {
+    width: 100%;
+    height: 80vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .contact__form--details {
+    width: 100%;
+  }
+
+  .contact__form--text {
+    height: 256px;
+    width: 455px;
+    top: 0;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 52px;
+    text-align: left;
+  }
+
+  .w-2-lg {
+    margin: auto;
+    padding: 2%;
+    height: 60vh;
+  }
+
+  .display__column__1__1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+
+  .first__name__input,
+  .last__name__input,
+  .email__input {
+    width: 60%;
+    height: 5vh;
+    margin: 0.4em;
+  }
+
+  .first__name__input,
+  .last__name__input {
+    height: 2em;
+    width: 18em;
+  }
+
+  .last__name__input {
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+  }
+
+  .email__input {
+    height: 2em;
+    width: 35em;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 3em;
+  }
+
+  .message__input {
+    height: 10em;
+    width: 40em;
+    background: #fbf8f7;
+    color: #3c3a39;
+  }
+
+  .get__intouch__btn__wrap {
+    height: 3em;
+    width: 8em;
+    padding: 0.7em;
+    background: #f55800;
+  }
+
+  .get__intouch__btn {
+    height: 1.4em;
+    width: 9em;
+    left: 0.7em;
+    top: 12px;
+    background: #f55800;
+    border: none;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    text-align: center;
+    color: #fff;
+  }
+
+  .get__intouch__btn:hover {
+    cursor: pointer;
+    opacity: 0.7;
+  }
+
+  .social__handles__wrap {
+    border-top: 2px solid #e5e5e5;
+  }
+
+  .social__handles {
+    display: flex;
+    flex-direction: row;
+    height: 3em;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .github__wrap,
+  .linkedin__wrap,
+  .angellist__wrap,
+  .twitter__wrap,
+  .medium__wrap {
+    margin: 1em;
+  }
+
+  .fa-angellist,
+  .fa-github,
+  .fa-linkedin,
+  .fa-twitter,
+  .fa-medium {
+    color: #505f79;
+  }
+
+  .header__fit__linter {
+    display: none;
+  }
 }
