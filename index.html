@@ -296,21 +296,21 @@
           so if you'd like to work please get in touch.
         </div>
         <div class="contact__form--details w-1-sm w-2-md w-2-lg">
-          <form class="form__wrap">
+          <form class="form__wrap" action="https://formspree.io/f/mleawypk" method="POST">
             <section class="display__column__1__1">
               <h3 class="header__fit__linter">Hey reviewers</h3>
               <div class="first__name__group">
-                <input type="text" placeholder="First Name" class="first__name__input" />
+                <input type="text" name="firstname" maxlength="30" placeholder="First Name" required class="first__name__input" />
               </div>
               <div class="last__name__group">
-                <input type="text" placeholder="Last Name" class="last__name__input" />
+                <input type="text" name="lastname" maxlength="30" placeholder="Last Name" required class="last__name__input" />
               </div>
             </section>
             <div class="email__group">
-              <input type="email" placeholder="Email" class="email__input" />
+              <input type="email" name="email" placeholder="Email" class="email__input" required/>
             </div>
             <div class="message__group">
-              <textarea class="message__input">
+              <textarea class="message__input" name="message" maxlength="500" required >
                 Message
               </textarea>
             </div>
