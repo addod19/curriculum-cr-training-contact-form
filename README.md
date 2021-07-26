@@ -34,5 +34,5 @@ Application is based on this [Figma design](https://www.figma.com/file/t3EJUCAEV
 - [ ] [Twitter](https://twitter.com/DanielLarbiAdd1)
 
 
-## Deployment
-- [ ] [Live version demo](https://raw.githack.com/addod19/curriculum-cr-training-contact-form/review/index.html)
+## Heroku Deployment
+- [ ] [Live version demo](https://contact-form21.herokuapp.com/)
