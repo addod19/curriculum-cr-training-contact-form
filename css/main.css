@@ -325,3 +325,298 @@ li {
 .skills {
   list-style: inside url("../media/svg/circle.svg");
 }
+
+/* Contact Form Styling begins here */
+
+/* Mobile First Approach */
+
+.header__fit__linter {
+  display: none;
+}
+
+.contact__form__wrapper {
+  height: auto;
+}
+
+.w-1-sm {
+  height: 50vh;
+}
+
+.contact__form--text {
+  height: auto;
+  font-size: 2em;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1em;
+  text-align: center;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+.contact__form--details {
+  width: 90%;
+  margin: auto;
+}
+
+.display__column__1__1,
+.email__group,
+.message_group,
+.first__name__input,
+.last__name__input,
+.message__input,
+.email__input {
+  border: none;
+}
+
+.display__column__1__1,
+.email__group,
+.message_group,
+.first__name__input,
+.last__name__input,
+.message__input,
+.email__input,
+.w-1-sm,
+.contact__form__wrapper,
+.social__handles__wrap {
+  width: 100%;
+}
+
+.message__input {
+  height: 8em;
+}
+
+.first__name__input,
+.last__name__input,
+.email__input {
+  height: 4em;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.social__handles,
+.social__handles__wrap,
+.get__intouch__btn__wrap,
+.contact__form__wrapper {
+  display: flex;
+}
+
+.get__intouch__btn,
+.get__intouch__wrap {
+  background: #f55800;
+  height: 48px;
+  width: 131px;
+  border: none;
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1em;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.2em;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+
+.get__intouch__btn:hover,
+.get__intouch__wrap:hover {
+  cursor: pointer;
+}
+
+.get__intouch__btn__wrap {
+  justify-content: center;
+  align-items: center;
+}
+
+.social__handles__wrap {
+  height: 5vh;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1.7em;
+  margin-bottom: 1.3em;
+  border-top: 1px solid #e5e5e5;
+}
+
+.social__handles {
+  width: 80%;
+  margin: auto;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.fa-angellist,
+.fa-github,
+.fa-linkedin,
+.fa-twitter,
+.fa-medium {
+  color: #505f79;
+}
+
+.fa-angellist:hover,
+.fa-github:hover,
+.fa-linkedin:hover,
+.fa-twitter:hover,
+.fa-medium:hover {
+  opacity: 0.7;
+}
+
+.contact__form__wrapper,
+.get__intouch__btn__wrap {
+  flex-direction: column;
+}
+
+.get__intouch__btn:hover {
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+.github__wrap,
+.linkedin__wrap,
+.angellist__wrap,
+.twitter__wrap,
+.medium__wrap {
+  margin-top: 1em;
+}
+
+@media only screen and (min-width: 992px) and (min-width: 1280px) {
+  .contact__form__wrapper {
+    height: 80vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .contact__form__wrapper,
+  .contact__form--details,
+  .display__column__1__1 {
+    width: 100%;
+  }
+
+  .contact__form--text {
+    height: 256px;
+    width: 455px;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 52px;
+    text-align: left;
+  }
+
+  .contact__form--text,
+  .last__name__input,
+  .email__input,
+  .get__intouch__btn__wrap,
+  .get__intouch__btn {
+    font-style: normal;
+  }
+
+  .w-2-lg {
+    margin: auto;
+    padding: 2%;
+    height: 60vh;
+  }
+
+  .display__column__1__1 {
+    flex-wrap: wrap;
+  }
+
+  .social__handles,
+  .display__column__1__1 {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .first__name__input,
+  .last__name__input,
+  .email__input {
+    width: 60%;
+    height: 5vh;
+    margin: 0.4em;
+  }
+
+  .first__name__input,
+  .last__name__input {
+    height: 2em;
+    width: 18em;
+  }
+
+  .last__name__input {
+    line-height: 24px;
+    text-align: left;
+  }
+
+  .email__input {
+    height: 2em;
+    width: 35em;
+    line-height: 3em;
+  }
+
+  .last__name__input,
+  .email__input {
+    font-weight: 400;
+    font-size: 15px;
+  }
+
+  .message__input {
+    height: 10em;
+    width: 40em;
+    background: #fbf8f7;
+    color: #3c3a39;
+  }
+
+  .get__intouch__btn__wrap {
+    height: 3em;
+    width: 8em;
+    padding: 0.7em;
+    font-size: 17px;
+  }
+
+  .get__intouch__btn__wrap,
+  .get__intouch__btn {
+    background: #f55800;
+    font-family: 'Roboto', sans-serif;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    text-align: center;
+    font-weight: 700;
+  }
+
+  .get__intouch__btn {
+    height: 1.4em;
+    width: 9em;
+    left: 0.7em;
+    border: none;
+    font-size: 12px;
+    color: #fff;
+  }
+
+  .get__intouch__btn:hover {
+    cursor: pointer;
+    opacity: 0.7;
+  }
+
+  .social__handles__wrap {
+    border-top: 2px solid #e5e5e5;
+  }
+
+  .social__handles {
+    height: 3em;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .github__wrap,
+  .linkedin__wrap,
+  .angellist__wrap,
+  .twitter__wrap,
+  .medium__wrap {
+    margin: 1em;
+  }
+
+  .fa-angellist,
+  .fa-github,
+  .fa-linkedin,
+  .fa-twitter,
+  .fa-medium {
+    color: #505f79;
+  }
+
+  .header__fit__linter {
+    display: none;
+  }
+}

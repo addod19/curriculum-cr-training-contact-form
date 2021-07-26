@@ -18,9 +18,21 @@ Application is based on this [Figma design](https://www.figma.com/file/t3EJUCAEV
 
 ## Linter checks command
 - [ ] `npx stylelint "**/*.scss"`
+- [ ] `npx hint .`
 
+## Desktop Screenshot view
+
+![desktop](https://user-images.githubusercontent.com/46388113/126878446-6c420e9b-eeba-4e4e-b368-4d6ec31180b6.png)
+
+## Mobile screenshot view
+
+![mobile](https://user-images.githubusercontent.com/46388113/126878439-0ed6e9fd-650b-4571-98f1-fcd2879ce7a5.png)
 
 ## Author
-- [ ] [LinkedIn]()
-- [ ] [Stackoverflow]()
-- [ ] [Twitter]()
+- [ ] [LinkedIn](https://www.linkedin.com/in/daniel-larbi-addo/)
+- [ ] [Stackoverflow](https://stackoverflow.com/users/12172996/daniel-larbi-addo)
+- [ ] [Twitter](https://twitter.com/DanielLarbiAdd1)
+
+
+## Heroku Deployment
+- [ ] [Live version demo](https://contact-form21.herokuapp.com/)

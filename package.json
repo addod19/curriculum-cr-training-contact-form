@@ -4,7 +4,8 @@
   "description": "Training for the version 2.0 code review",
   "main": "index.js",
   "scripts": {
-    "stylelint": "stylelint ’[-**/*.{css,scss}]’"
+    "stylelint": "stylelint ’[-**/*.{css,scss}]’",
+    "build": "npm run build"
   },
   "repository": {
     "type": "git",
